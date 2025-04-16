@@ -1,10 +1,8 @@
-# utils_ds-normalize
+# utils_system
 (Українська версія нижче / Ukrainian version below)
 
 ## English
-Utilities to convert paths using "\\", "/", or the greater than (>) sign as directory separators to a valid path according to the directory separator for the current operating system.
-Designed to unify internal paths across all framework modules.
-Also contains a constant DS to store the directory separator for the current operating system.
+System utilities and framework constants.
 
 Notes:
 - Semantic versioning is used accordance with https://semver.org.
@@ -16,12 +14,10 @@ Copyright (c) Ruslan A7 (RA7). All rights reserved.
 Licensed under [RA7 Open Free License](https://ra7.iuid.cc/license)
 
 ## Українська
-Утиліти для перетворення шляхів із використанням "\\", "/" або знака «більше» (>) у якості роздільника директорій на дійсний шлях згідно роздільника директорій для поточної операційної системи.
-Призначено для уніфікації внутрішніх шляхів у всіх пакетах фреймворка.
-Також містить константу DS для збереження роздільника директорій для поточної операційної системи.
+Системні утиліти та константи фреймворка.
 
 Примітки:
-- Використовується семантичне версіонування згідо https://semver.org/lang/uk.
+- Використовується семантичне версіювання згідно https://semver.org/lang/uk.
 
 ## Ліцензія:
 
