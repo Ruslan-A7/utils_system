@@ -13,3 +13,12 @@ define('NESTING_SEPARATOR', '>');
 
 /** NS - скорочений варіант NESTING_SEPARATOR (роздільник вкладеності) */
 define('NS', NESTING_SEPARATOR);
+
+/**
+ * BACKWARD_NESTING_SEPARATOR - роздільник вкладеності (для зворотного порядку) при побудові шляхів без використання стандартного роздільника каталогів, а також для масивів та інших структур.
+ * Рекомендується використовувати знак більше '<'.
+ */
+define('BACKWARD_NESTING_SEPARATOR', '<');
+
+/** NS - скорочений варіант BACKWARD_NESTING_SEPARATOR (роздільник вкладеності для зворотного порядку) */
+define('BNS', BACKWARD_NESTING_SEPARATOR);
