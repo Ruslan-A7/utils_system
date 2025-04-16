@@ -1,0 +1,44 @@
+{
+    "name": "ra7/utils_system",
+    "description": "System utilities and framework constants.",
+    "type": "library",
+    "keywords": [
+        "directory-separator",
+        "ds",
+        "nesting-separator",
+        "ns",
+        "separators",
+        "separator",
+        "path",
+        "utilities",
+        "utils",
+        "helpers",
+        "functions",
+        "constants",
+        "ra7-ofl",
+        "ra7",
+        "Ruslan_A7"
+    ],
+    "homepage": "https://dev.iuid.cc/projects/utils/system",
+    "license": "proprietary",
+    "_comment": [
+        "License: RA7 Open Free License"
+    ],
+    "authors": [
+        {
+            "name": "Ruslan_A7 (RA7)",
+            "homepage": "https://ra7.iuid.cc",
+            "role": "Developer"
+        }
+    ],
+    "minimum-stability": "stable",
+    "prefer-stable": true,
+    "autoload": {
+        "files": [
+            "src/separators.php"
+        ]
+    },
+    "require": {
+        "php": "^8"
+    }
+}
