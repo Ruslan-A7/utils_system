@@ -10,6 +10,8 @@
         "separators",
         "separator",
         "path",
+        "normalize",
+        "replace",
         "utilities",
         "utils",
         "helpers",
@@ -35,7 +37,8 @@
     "prefer-stable": true,
     "autoload": {
         "files": [
-            "src/separators.php"
+            "src/separators/definition.php",
+            "src/separators/normalize.php"
         ]
     },
     "require": {
