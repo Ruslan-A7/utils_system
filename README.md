@@ -3,8 +3,10 @@
 
 ## English
 System utilities and framework constants.
-Functions to convert paths using "\\", "/", greater more sign (>) or dot (.) as directory separators to a valid path according to the directory separator for the current operating system, designed to unify internal paths across framework packages.
-Also contains a constant DS to store the directory separator for the current operating system.
+Functions for normalizing paths according to the directory separator for the current operating system.
+Functions for handling the nestedness of arrays and other structures that have nestedness.
+Functions for converting paths to nesting and vice versa.
+It is intended to unify internal paths and nestings in all framework packages.
 
 Notes:
 - Semantic versioning is used accordance with https://semver.org.
@@ -17,8 +19,10 @@ Licensed under [RA7 Open Free License](https://ra7.iuid.cc/license)
 
 ## Українська
 Системні утиліти та константи фреймворка.
-Функції для перетворення шляхів із використанням "\\", "/", знака «більше» (>) або «крапки» (.) у якості роздільника директорій, на дійсний шлях згідно роздільника директорій для поточної операційної системи, що призначено для уніфікації внутрішніх шляхів у всіх пакетах фреймворка.
-Також містить константу DS для збереження роздільника директорій для поточної операційної системи.
+Функції для нормалізації шляхів згідно роздільника директорій для поточної операційної системи.
+Функції для обробки вкладеності масивів та інших структур що мають вкладеність.
+Функції для перетворення шляхів у вкладеність та навпаки.
+Призначено для уніфікації внутрішніх шляхів та вкладеностей у всіх пакетах фреймворка.
 
 Примітки:
 - Використовується семантичне версіювання згідно https://semver.org/lang/uk.
